@@ -1,0 +1,8 @@
+{
+  "id": "CFG-005",
+  "version": 5,
+  "tipoEvento": "ipc",
+  "nivelRiesgo": 2,
+  "criterio": "*",
+  "modoDepuracion": true
+}

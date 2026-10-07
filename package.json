@@ -1,0 +1,28 @@
+{
+  "name": "config-guard-v1",
+  "version": "1.0.0",
+  "description": "Simulador académico de validación de configuraciones - versión 1 sin control",
+  "main": "src/loader.js",
+  "scripts": {
+    "demo": "node src/demo.js",
+    "test": "jest --coverage",
+    "lint": "eslint .",
+    "lint:json": "eslint . -f json -o reports/eslint-v1.json"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "coverageReporters": [
+      "text",
+      "lcov",
+      "json-summary"
+    ]
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.12.0",
+    "eslint-plugin-security": "^4.2.0",
+    "globals": "^17.13.0",
+    "jest": "^30.5.2"
+  }
+}

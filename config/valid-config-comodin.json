@@ -1,0 +1,7 @@
+{
+  "id": "CFG-001",
+  "version": 1,
+  "tipoEvento": "ipc",
+  "nivelRiesgo": 3,
+  "criterio": "*"
+}

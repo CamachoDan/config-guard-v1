@@ -1,0 +1,7 @@
+{
+  "id": "CFG-002",
+  "version": 2,
+  "tipoEvento": "ipc",
+  "nivelRiesgo": 4,
+  "criterio": "pipe-sospechoso"
+}

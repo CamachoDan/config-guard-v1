@@ -1,0 +1,14 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Configuración de contenido (plantilla simulada de cinco campos)",
+  "type": "object",
+  "properties": {
+    "id": { "type": "string" },
+    "version": { "type": "integer", "minimum": 1 },
+    "tipoEvento": { "type": "string" },
+    "nivelRiesgo": { "type": "integer", "minimum": 1, "maximum": 5 },
+    "criterio": { "type": "string" }
+  },
+  "required": ["id", "version", "tipoEvento", "nivelRiesgo", "criterio"],
+  "additionalProperties": false
+}
